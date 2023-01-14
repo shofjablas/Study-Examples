@@ -1,0 +1,9 @@
+body {
+  border: 5px solid black;
+}
+
+/* button 색상을 넣으려고 하는데.. butoon {}도 안되고 .ATC{}도 안된다. */
+
+.ATC {
+  color: black;
+}

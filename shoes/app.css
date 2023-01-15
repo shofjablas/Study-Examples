@@ -1,4 +1,9 @@
 body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.outline {
   border: 5px solid #b08968;
 }
 
@@ -15,7 +20,27 @@ h2 {
 .free {
   font-size: small;
   color: #b08968;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
+.pd {
+  text-transform: uppercase;
+}
+
+.more-link:link,
+.more-link:visited {
+  color: #b08968;
+}
+.more-link:hover,
+.more-link:active {
+  text-decoration: none;
+  color: #e3d5ca;
+} /*링크에 마우스를 대면 밑줄 없어지고 색 바뀜*/
+
+li {
+  list-style: square;
+} /*동그라미에서 네모로 디자인 바꿈*/
 
 /* button 색상을 넣으려고 하는데.. butoon {}도 안되고 .ATC{}도 안된다. */
 
@@ -25,6 +50,7 @@ h2 {
   background-color: #b08968;
   color: white;
   text-transform: uppercase; /*대문자 변경*/
+  cursor: pointer;
 }
 
 .ATC:hover {
@@ -32,12 +58,3 @@ h2 {
   color: black;
   border: white;
 }
-
-a:hover {
-  text-decoration: none;
-  color: #b08968;
-} /*링크에 마우스를 대면 밑줄 없어지고 색 바뀜*/
-
-li {
-  list-style: square;
-} /*동그라미에서 네모로 디자인 바꿈*/

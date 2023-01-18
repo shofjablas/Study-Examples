@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
-
 body {
   line-height: 1.5;
   font-family: sans-serif;
@@ -15,13 +10,17 @@ body {
 
 .outline {
   border: 5px solid #b08968;
+  width: 825px;
+  margin: 50px auto;
 }
 
 .all-title {
   background-color: #e6ccb2;
   text-transform: uppercase;
   text-align: center;
+  font-size: 24px;
   margin: 0;
+  padding: 10px;
 }
 
 .price {
@@ -42,7 +41,9 @@ body {
 
 .pd {
   text-transform: uppercase;
-  padding: 20px 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .more-link:link,
@@ -55,30 +56,31 @@ body {
   color: #e3d5ca;
 } /*링크에 마우스를 대면 밑줄 없어지고 색 바뀜*/
 
-li {
+.information {
+  margin-left: 20px;
   list-style: square;
 } /*동그라미에서 네모로 디자인 바꿈*/
 
-.information {
-  padding-left: 20px;
-  margin: auto;
+.information li {
+  margin-bottom: 10px;
 }
 
 /* button 색상을 넣으려고 하는데.. butoon {}도 안되고 .ATC{}도 안된다. */
 
 .ATC {
   font-size: 20px;
-  border: #b08968;
   background-color: #b08968;
   color: white;
   text-transform: uppercase; /*대문자 변경*/
   cursor: pointer;
-  text-align: center;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid #b08968;
 }
 
 .ATC:hover {
+  font-size: 20px;
   background-color: white;
   color: black;
-  border: 5px solid #b08968;
-  text-align: center;
 }

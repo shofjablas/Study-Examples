@@ -8,6 +8,11 @@ body {
   font-family: sans-serif;
 }
 
+h2::after {
+  content: SALE;
+  background-color: #d90429;
+}
+
 .outline {
   border: 5px solid #b08968;
   width: 825px;

@@ -8,9 +8,23 @@ body {
   font-family: sans-serif;
 }
 
-h2::after {
-  content: SALE;
+h2 {
+  position: relative;
+}
+
+h2::before {
+  content: "SALE"; /*문자니까!! ""를 붙여야한다. 잊지말자 !!!!!"*/
   background-color: #d90429;
+  color: #fff;
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  top: -25px;
+  left: -30px;
+  letter-spacing: 5px;
+  padding: 5px;
+  border: 5px solid #d90429;
+  border-radius: 10%;
 }
 
 .outline {

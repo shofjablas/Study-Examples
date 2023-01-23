@@ -62,3 +62,9 @@ console.log(populationAverage > population);
 //Strign and Template Literals
 const description = `${country} is in ${continent}, and its ${population}million people speak ${language}`;
 console.log(description);
+
+if (population > 33) {
+  `'${country} population is above average`;
+} else {
+  `${country} population is ${33 - population} average`;
+}

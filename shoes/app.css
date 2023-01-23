@@ -25,6 +25,7 @@ h2::before {
   padding: 5px;
   border: 5px solid #d90429;
   border-radius: 10%;
+  text-align: center;
 }
 
 .outline {
@@ -68,6 +69,7 @@ h2::before {
 .more-link:link,
 .more-link:visited {
   color: #b08968;
+  display: inline-block;
 }
 .more-link:hover,
 .more-link:active {
@@ -75,6 +77,34 @@ h2::before {
   color: #e3d5ca;
 } /*링크에 마우스를 대면 밑줄 없어지고 색 바뀜*/
 
+.color {
+  background-color: #001219;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.color-blue {
+  background-color: #0077b6;
+}
+
+.color-pink {
+  background-color: #ef476f;
+}
+
+.color-orange {
+  background-color: #f77f00;
+}
+
+.color-green {
+  background-color: #333d29;
+}
+
+.color-yellow {
+  background-color: #f4d35e;
+}
 .information {
   margin-left: 20px;
   list-style: square;

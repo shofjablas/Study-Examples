@@ -27,20 +27,34 @@ const country = "South Korea";
 const continent = "Asia";
 const isIsland = true;
 
-//Basic Operators
+//Basic Operators - 1
 let populationHalf = population / 2;
 console.log(populationHalf);
 
-//2
+//Basic Operators - 2
 let populationPlusOne = population++;
 console.log(populationPlusOne);
 
-//3
+//Basic Operators - 3
 let populationFinland = 6;
 console.log(population > populationFinland);
 
-//4
+//Basic Operators - 4
 let populationAverage = 33;
 console.log(populationAverage > population);
 
-//5
+//5` - 5
+const description =
+  country +
+  " is" +
+  " in " +
+  continent +
+  ", " +
+  "and " +
+  "its " +
+  population +
+  "million " +
+  "people " +
+  "speak " +
+  language;
+console.log(description);

@@ -43,7 +43,7 @@ console.log(population > populationFinland);
 let populationAverage = 33;
 console.log(populationAverage > population);
 
-//5` - 5
+//Basic Operators - 5
 const description =
   country +
   " is" +

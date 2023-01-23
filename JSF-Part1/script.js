@@ -44,17 +44,21 @@ let populationAverage = 33;
 console.log(populationAverage > population);
 
 //Basic Operators - 5
-const description =
-  country +
-  " is" +
-  " in " +
-  continent +
-  ", " +
-  "and " +
-  "its " +
-  population +
-  "million " +
-  "people " +
-  "speak " +
-  language;
+// const description =
+//   country +
+//   " is" +
+//   " in " +
+//   continent +
+//   ", " +
+//   "and " +
+//   "its " +
+//   population +
+//   "million " +
+//   "people " +
+//   "speak " +
+//   language;
+// console.log(description);
+
+//Strign and Template Literals
+const description = `${country} is in ${continent}, and its ${population}million people speak ${language}`;
 console.log(description);

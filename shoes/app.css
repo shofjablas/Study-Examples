@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -47,7 +48,7 @@ h2::before {
   font-size: 25px;
 }
 
-.free {
+.shipping {
   font-size: small;
   color: #b08968;
   font-weight: bold;
@@ -132,4 +133,42 @@ h2::before {
   font-size: 20px;
   background-color: white;
   color: black;
+}
+
+.sectionone {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+
+.sectiontwo {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  width: 240px;
+}
+
+.sectionthree {
+  float: left;
+  width: 240px;
+}
+
+.price {
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.shipping {
+  margin-top: 30px;
+}
+
+.clear {
+  clear: left;
+  display: block;
+  content: "";
+}
+
+img {
+  display: block;
 }

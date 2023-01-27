@@ -166,7 +166,3 @@ h2::before {
 img {
   display: block;
 }
-
-.clearfix {
-  clear: left;
-}

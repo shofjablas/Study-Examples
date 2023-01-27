@@ -31,7 +31,7 @@ h2::before {
 
 .outline {
   border: 5px solid #b08968;
-  width: 825px;
+  width: 845px;
   margin: 50px auto;
 }
 
@@ -163,12 +163,10 @@ h2::before {
   margin-top: 30px;
 }
 
-.clear {
-  clear: left;
-  display: block;
-  content: "";
-}
-
 img {
   display: block;
+}
+
+.clearfix {
+  clear: left;
 }

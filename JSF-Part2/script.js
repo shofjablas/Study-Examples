@@ -135,4 +135,13 @@ population >= 55
 
 // console.log(describeCountry(country, population, "Seoul"));
 
-//다시 수정해본거
+//다시 수정해본거 다시 해보기
+function describeCountry(country, population, capitalCity) {
+  return `${country} has ${population} people and its capital city is ${capitalCity}`;
+}
+
+const SouthKorea = describeCountry("South Korea", 51, "Seoul");
+const England = describeCountry("England", 67, "London");
+const Taiwan = describeCountry("Taiwan", 23, "Taipei");
+
+console.log(SouthKorea, England, Taiwan);

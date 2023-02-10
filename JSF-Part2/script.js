@@ -145,3 +145,11 @@ const England = describeCountry("England", 67, "London");
 const Taiwan = describeCountry("Taiwan", 23, "Taipei");
 
 console.log(SouthKorea, England, Taiwan);
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const China = percentageOfWorld1(141);
+
+console.log(China);

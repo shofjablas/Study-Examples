@@ -136,20 +136,56 @@ population >= 55
 // console.log(describeCountry(country, population, "Seoul"));
 
 //다시 수정해본거 다시 해보기
-function describeCountry(country, population, capitalCity) {
-  return `${country} has ${population} people and its capital city is ${capitalCity}`;
-}
+// function describeCountry(country, population, capitalCity) {
+//   return `${country} has ${population} people and its capital city is ${capitalCity}`;
+// }
 
+// const SouthKorea = describeCountry("South Korea", 51, "Seoul");
+// const England = describeCountry("England", 67, "London");
+// const Taiwan = describeCountry("Taiwan", 23, "Taipei");
+
+// console.log(SouthKorea, England, Taiwan);
+
+// function percentageOfWorld1(population) {
+//   return (population / 7900) * 100;
+// }
+
+// const China = percentageOfWorld1(141);
+
+// console.log(China);
+
+//functions 230211
+function describeCountry(country, population, capitalCity) {
+  return `${country} has ${population}million people and its capital city is ${capitalCity}`;
+}
 const SouthKorea = describeCountry("South Korea", 51, "Seoul");
 const England = describeCountry("England", 67, "London");
 const Taiwan = describeCountry("Taiwan", 23, "Taipei");
 
 console.log(SouthKorea, England, Taiwan);
 
+// //function Declaraions vs Expressions 230211 실패 이따가 다시
+// function percentageOfWorld1(population) {
+//   console.log(
+//     `${country} has ${population} milllion people, so it's about ${percentage} of the world population`
+//   );
+//   return (population / 7900) * 100;
+// }
+
+// const southKoreaPercentage = percentageOfWorld1(80);
+// console.log(southKoreaPercentage);
+
+//function Declaraions vs Expressions 230212
 function percentageOfWorld1(population) {
   return (population / 7900) * 100;
 }
 
-const China = percentageOfWorld1(141);
+const southKoreaPercentage1 = percentageOfWorld1(51);
+console.log(southKoreaPercentage1);
 
-console.log(China);
+const percentageOfWorld2 = function (population) {
+  return (population / 7900) * 100;
+};
+
+const southKoreaPercentage2 = percentageOfWorld2(51);
+console.log(southKoreaPercentage2);
